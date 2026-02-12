@@ -152,11 +152,11 @@ with st.sidebar:
     
     st.write("")
     st.markdown("**📈 Rumbo al 2do año juntos:**")
-    st.progress(3/12) # 3 meses de 12 para el siguiente año
+    st.progress(3/12) # 3 meses de 12
     
     st.markdown("---")
     
-    # SNOOPY (Lógica para cargar imagen local o respaldo)
+    # SNOOPY
     if os.path.exists("snoopy.jpg"):
         st.image("snoopy.jpg", width=200)
     elif os.path.exists("snoopy.png"):
@@ -164,12 +164,12 @@ with st.sidebar:
     else:
         st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/240px-Heart_coraz%C3%B3n.svg.png", width=150, caption="Sube snoopy.jpg a GitHub")
 
-    # Frase final
+    # Frase final (Nueva)
     st.markdown("""
     <div style="text-align: center; margin-top: 20px; background-color: #ffe5ec; padding: 10px; border-radius: 10px; border: 1px dashed #ff4b6b;">
         <p style="font-size: 14px; font-style: italic; color: #d61c4e; margin: 0;">
-            "Tú eres mi reina pepiada..." <br> 
-            <b>Te amo Valeria</b>
+            "Tú eres mi favorita." <br> 
+            <b>Te amo, Valeria</b>
         </p>
     </div>
     """, unsafe_allow_html=True)
@@ -201,32 +201,34 @@ else:
     c3.metric("Mins", minutos)
     c4.metric("Segs", segundos)
 
-# --- 6. CARTA ---
+# --- 6. CARTA (TEXTO NUEVO) ---
 st.markdown(f"""
     <div class="carta-contenedor">
-        <p style="font-size: 20px; font-weight: bold; color: #d61c4e;">Mi adorada Valeria,</p>
+        <p style="font-size: 20px; font-weight: bold; color: #d61c4e;">¡Hola, mi amor! ❤️</p>
         <p style="font-size: 18px; line-height: 1.6;">
-            Parece que fue ayer cuando empezamos este camino, pero ya han pasado <b>1 año y 3 meses maravillosos</b>. 
-            En este tiempo, no solo te has convertido en mi novia, sino en mi compañera de vida, mi refugio y mi reina. <br><br>
-            A tu lado, todo es más bonito. Gracias por cada risa, por cada momento compartido y por enseñarme lo que es el amor verdadero. 
-            Eres la persona más especial que conozco y cada día que pasa me convenzo más de la suerte que tengo de tenerte.<br><br>
-            Se acerca <b>San Valentín</b>, y quiero aprovechar para recordarte que eres lo más importante para mí. Como dice la canción, tú eres mi reina pepiada, la que le da sabor y color a mis días.
+            Ya llevamos <b>1 año y 3 meses</b> compartiendo locuras, risas y momentos que no cambio por nada. 
+            Mirar atrás y ver todo lo que hemos construido juntos me hace sentir el hombre más afortunado del mundo. <br><br>
+            Tú eres mi <b>Reina Pepiada</b>, la que tiene el "sazón" perfecto que le faltaba a mi vida. 
+            No solo eres mi novia, eres mi compañera, mi cómplice y esa persona con la que quiero seguir sumando historias. 
+            Me encanta cómo eres, tu energía y cómo haces que los días grises tomen color.<br><br>
+            Este <b>San Valentín</b> quiero que sea especial, porque te mereces todo lo bonito de este mundo. 
+            Gracias por ser tú, por aguantarme y por elegirme cada día. Te amo inmensamente.
         </p>
     </div>
     """, unsafe_allow_html=True)
 
-# --- 7. RAZONES ---
-st.markdown("<h3>💖 3 Razones por las que te elijo</h3>", unsafe_allow_html=True)
+# --- 7. RAZONES (TEXTO NUEVO) ---
+st.markdown("<h3>💖 3 Razones por las que eres mi Reina</h3>", unsafe_allow_html=True)
 col_a, col_b, col_c = st.columns(3)
 with col_a:
-    with st.expander("Tu Sonrisa ✨"):
-        st.write("Me ilumina los días y me hace sentir que todo estará bien.")
+    with st.expander("Tu Autenticidad 👑"):
+        st.write("Eres única, real y eso me encanta. No hay nadie como tú.")
 with col_b:
-    with st.expander("Tu Forma de Ser 🌸"):
-        st.write("Me encanta cómo eres, tan única y especial. Eres mi persona favorita.")
+    with st.expander("Tu Compañía 🌍"):
+        st.write("Contigo cualquier plan es el mejor plan. Haces todo mejor.")
 with col_c:
-    with st.expander("Nuestro Futuro 🚀"):
-        st.write("Me emociona todo lo que nos falta por vivir juntos. ¡Vamos por más!")
+    with st.expander("Lo que me haces sentir ❤️"):
+        st.write("Sacas la mejor versión de mí y me das paz y felicidad.")
 
 st.write("") 
 
