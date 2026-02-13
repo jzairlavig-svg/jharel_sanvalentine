@@ -4,7 +4,7 @@ import random
 import os
 
 # --- 1. CONFIGURACIÓN ---
-st.set_page_config(page_title="Para mi Valeria ❤️", page_icon="🥑", layout="centered")
+st.set_page_config(page_title="Para mi Reina ❤️", page_icon="🥑", layout="centered")
 
 # --- 2. ESTILOS CSS (ESTILOS COMPLETOS) ---
 st.markdown("""
@@ -164,7 +164,7 @@ with st.sidebar:
     else:
         st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/240px-Heart_coraz%C3%B3n.svg.png", width=150, caption="Sube snoopy.jpg a GitHub")
 
-    # --- FRASE FINAL CORREGIDA ---
+    # FRASE FINAL
     st.markdown("""
     <div style="text-align: center; margin-top: 20px; background-color: #ffe5ec; padding: 10px; border-radius: 10px; border: 1px dashed #ff4b6b;">
         <p style="font-size: 14px; font-style: italic; color: #d61c4e; margin: 0;">
@@ -175,7 +175,8 @@ with st.sidebar:
     """, unsafe_allow_html=True)
 
 # --- 5. ENCABEZADO Y TIMER ---
-st.markdown("<h1>🌹 Para mi Reina Valeria 🌹</h1>", unsafe_allow_html=True)
+# --- CAMBIO REALIZADO AQUÍ: SE QUITÓ "VALERIA" ---
+st.markdown("<h1>🌹 Para mi Reina 🌹</h1>", unsafe_allow_html=True)
 
 def get_time_left():
     ahora_utc = datetime.utcnow()
@@ -261,7 +262,7 @@ with col1:
     if st.button("¡SÍ, ACEPTO! 😍"):
         st.balloons()
         st.snow()
-        # --- MENSAJE DE ÉXITO CORREGIDO ---
+        # MENSAJE DE ÉXITO
         st.markdown("""
             <div style="background-color: #ffe5ec; color: #d61c4e; padding: 20px; border-radius: 15px; border: 2px solid #ff4b6b; text-align: center; margin-top: 15px;">
                 <h3 style="color: #ff2e63; margin:0;">¡SABÍA QUE DIRÍAS QUE SÍ! ❤️</h3>
