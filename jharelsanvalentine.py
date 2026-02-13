@@ -164,12 +164,12 @@ with st.sidebar:
     else:
         st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/240px-Heart_coraz%C3%B3n.svg.png", width=150, caption="Sube snoopy.jpg a GitHub")
 
-    # Frase final
+    # --- FRASE FINAL CORREGIDA ---
     st.markdown("""
     <div style="text-align: center; margin-top: 20px; background-color: #ffe5ec; padding: 10px; border-radius: 10px; border: 1px dashed #ff4b6b;">
         <p style="font-size: 14px; font-style: italic; color: #d61c4e; margin: 0;">
             "Tú eres mi favorita." <br> 
-            <b>Te amo, Valeria</b>
+            <b>Te amo mi niña</b>
         </p>
     </div>
     """, unsafe_allow_html=True)
@@ -201,7 +201,7 @@ else:
     c3.metric("Mins", minutos)
     c4.metric("Segs", segundos)
 
-# --- 6. CARTA (TEXTO NUEVO) ---
+# --- 6. CARTA ---
 st.markdown(f"""
     <div class="carta-contenedor">
         <p style="font-size: 20px; font-weight: bold; color: #d61c4e;">¡Hola, mi amor! ❤️</p>
@@ -217,7 +217,7 @@ st.markdown(f"""
     </div>
     """, unsafe_allow_html=True)
 
-# --- 7. RAZONES (TEXTO NUEVO) ---
+# --- 7. RAZONES ---
 st.markdown("<h3>💖 3 Razones por las que eres mi Reina</h3>", unsafe_allow_html=True)
 col_a, col_b, col_c = st.columns(3)
 with col_a:
@@ -232,7 +232,7 @@ with col_c:
 
 st.write("") 
 
-# --- 8. MÚSICA ESCONDIDA (REINA PEPIADA) ---
+# --- 8. MÚSICA ESCONDIDA ---
 with st.expander("🎵 Música de fondo: Reina Pepiada (Clic aquí)"):
     st.video("https://www.youtube.com/watch?v=sxnOoRYS_Gc")
 
@@ -261,7 +261,7 @@ with col1:
     if st.button("¡SÍ, ACEPTO! 😍"):
         st.balloons()
         st.snow()
-        # --- MENSAJE FINAL EDITADO AQUÍ ---
+        # --- MENSAJE DE ÉXITO CORREGIDO ---
         st.markdown("""
             <div style="background-color: #ffe5ec; color: #d61c4e; padding: 20px; border-radius: 15px; border: 2px solid #ff4b6b; text-align: center; margin-top: 15px;">
                 <h3 style="color: #ff2e63; margin:0;">¡SABÍA QUE DIRÍAS QUE SÍ! ❤️</h3>
