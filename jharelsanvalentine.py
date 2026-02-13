@@ -164,7 +164,7 @@ with st.sidebar:
     else:
         st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/240px-Heart_coraz%C3%B3n.svg.png", width=150, caption="Sube snoopy.jpg a GitHub")
 
-    # Frase final (Nueva)
+    # Frase final
     st.markdown("""
     <div style="text-align: center; margin-top: 20px; background-color: #ffe5ec; padding: 10px; border-radius: 10px; border: 1px dashed #ff4b6b;">
         <p style="font-size: 14px; font-style: italic; color: #d61c4e; margin: 0;">
@@ -261,11 +261,12 @@ with col1:
     if st.button("¡SÍ, ACEPTO! 😍"):
         st.balloons()
         st.snow()
+        # --- MENSAJE FINAL EDITADO AQUÍ ---
         st.markdown("""
             <div style="background-color: #ffe5ec; color: #d61c4e; padding: 20px; border-radius: 15px; border: 2px solid #ff4b6b; text-align: center; margin-top: 15px;">
                 <h3 style="color: #ff2e63; margin:0;">¡SABÍA QUE DIRÍAS QUE SÍ! ❤️</h3>
                 <p style="font-size: 18px; font-weight: bold; margin-top: 10px;">
-                    ¡Me haces el hombre más feliz del mundo! <br>Te amo Valeria 💑
+                    ¡Me haces el hombre más feliz del mundo! <br>Te amo mi niña 💑
                 </p>
             </div>
         """, unsafe_allow_html=True)
